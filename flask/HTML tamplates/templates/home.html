@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+ 	    <title>usernameInput</title>
+    </head>
+    <body class = "bg-secondary">
+        <div class = "container mt-5">
+            <h1 class = "text-center mt-4 text-light">Username and Password</h1>
+            <form class = "card p-4 shadow-sm mx-auto bg-dark text-light" action = "/form" method = "POST">
+                <label>Username: </label>
+                <input type = "text" id = "user_name" name = "user_name" class="form-control" placeholder ="Enter your username...">
+                <label>Password: </label>
+
+                <input type = "password" id = "Password" name = "Password" class="form-control"   placeholder ="Enter your password...">
+ 
+                <div class = "text-center mt-3">
+                    <button type = "submit" class="btn btn-success w-25 ">Submit</button>
+                </div>
+
+            </form>
+        </div>
+
+    </body>
+</html>
